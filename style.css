@@ -10,13 +10,10 @@ main {
     overflow: hidden;
 }
 
-main div {
+.column {
+    float: left;
     background-color: rgb(32, 32, 32);
     border: 1px inset rgb(61, 61, 61);
     border-right: none;
     height: 100%;
-}
-
-.column {
-    float: left;
 }

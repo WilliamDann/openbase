@@ -7,8 +7,10 @@ const toggleModal = (id) =>
     if (!elem.style.display)
           elem.style.display = 'none';
     elem.style.display = (elem.style.display == 'none') ? 'block' : 'none';
-}      
+}
 let mainView = new View()
       .link('#mainView')
       .init()
 let splitView = mainView.splitAdj();
+
+let board = new Board().init('board', mainView.adjacent[0].elem);
