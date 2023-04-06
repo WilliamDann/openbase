@@ -14,3 +14,4 @@ let mainView = new View()
 let splitView = mainView.splitAdj();
 
 let board = new Board().init('board', mainView.adjacent[0].elem);
+let pgn   = new PGNEditor(board.game).init('pgnedit', mainView.adjacent[1].elem);

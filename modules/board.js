@@ -42,6 +42,8 @@ class Board {
 
         if (move === null) 
             return 'snapback'
+
+        document.dispatchEvent(new CustomEvent('boardState', {detail: this.game}));
     }
 
     onSnapEnd () {

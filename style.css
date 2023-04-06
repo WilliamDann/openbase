@@ -13,6 +13,7 @@ main {
 .column {
     float: left;
     background-color: rgb(32, 32, 32);
+    color: white;
     border: 1px inset rgb(61, 61, 61);
     border-right: none;
     height: 100%;
