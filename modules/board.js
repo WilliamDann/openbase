@@ -7,7 +7,7 @@ class Board {
 
     init(id, container) {
         let board = document.createElement('div');
-        board.style.width = '100%';
+        board.className = "board";
         board.id = id;
         container.appendChild(board);
         this.elem = board;

@@ -18,3 +18,21 @@ main {
     border-right: none;
     height: 100%;
 }
+
+.moveRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.moveRow div {
+    background-color : rgba(255, 255, 255, 0.1);
+    border: 1px solid black;
+    flex             : 0 1 calc(50% - 10px);
+}
+
+.board {
+    width: 85%;
+    padding: 7.5%;
+}
